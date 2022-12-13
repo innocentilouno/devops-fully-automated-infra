@@ -1,7 +1,7 @@
-variable "key_pair_name" {
+variable "Bastion" {
     type = string
     description = "keypair to utilize"
-    default = "vamsi-chunduru"
+    default = "us-east-1"
 }
 
 # variable "vpc_id" {
